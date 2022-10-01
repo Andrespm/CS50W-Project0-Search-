@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Image search</title>
 </head>
 <body>
-    <nav>
-        <li>
-            <a href="index.html">Web search</a>
-            <a href="advanced.html">Advanced search</a>
-        </li>
-    </nav>
-    <form action="https://www.google.com.ar/imghp" method="get">
-        <input type="text" placeholder="Search.." class="searchBar" name="query">
-        <input type="submit">
-    </form>
+    <div>
+        <ul class="navbar">
+            <li><a href="index.html" style="margin: 15px;">Search</a></li>
+            <li><a href="advanced.html">Advanced search</a></li>
+        </ul>
+    </div>
+    <div class="form">
+        <form action="http://images.google.com/images" method="get">
+            <input type="text" placeholder="Search.." class="searchBar" name="q"><br><br>
+            <input type="submit" value="Search" class="button">
+        </form>
+    </div>
 </body>
 </html>
