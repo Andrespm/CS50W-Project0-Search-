@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Search</title>
 </head>
 <body>
-    <nav>
-        <li style="float: right;">
-            <a href="image.html">Images</a>
-            <a href="advanced.html">Advanced search</a>
-        </li>
-    </nav>
-    <form action="https://www.google.com/search" method="get">
-        <input type="text" placeholder="Search.." class="searchBar" name="query">
-        <input type="submit">
-    </form>
+    <div>
+        <ul class="navbar">
+            <li><a href="image.html" style="margin: 15px;">Images</a></li>
+            <li><a href="advanced.html">Advanced search</a></li>
+        </ul>
+    </div>
+    <div class="form">
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" placeholder="Search.." class="searchBar" name="q"><br><br>
+            <input type="submit" value="Google Search" class="button">
+        </form>
+    </div>
 </body>
 </html>
