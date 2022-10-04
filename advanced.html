@@ -14,30 +14,34 @@
             <li><a href="index.html">Search</a></li>
         </ul>
     </div>
-    <div>
+    <h1 style="color:red; font-family: Arial, Helvetica, sans-serif; font-weight: normal;"> Advanced search</h1><hr>
+    <div class="advanced">
+        <h3>Find pages with...</h3>
         <form action="https://www.google.com/search" method="get">
-            <h5>Find pages with..</h5>
-            <div>
-                <label>all these words:</label>
-                <input type="text" name="as_q">
-                <br><br>
-            </div>
-            <div>
-                <label>this exact word or phrase:</label>
-                <input type="text" name="as_epq">
-                <br><br>
-            </div>
-            <div>
-                <label>any of this words:</label>
-                <input type="text" name="as_oq">
-                <br><br>
-            </div>
-            <div>
-                <label>none of these words:</label>
-                <input type="text" name="as_eq">
-                <br><br>
-            </div>
-            <input type="submit" value="Advanced search" class="Abutton">
+                <div class="Ainput">
+                    <label>all these words:</label>
+                    <input type="text" name="as_q" class="form-input">
+                    <br><br>
+                </div>
+                <div class="Ainput">
+                    <label>this exact word or phrase:</label>
+                    <input type="text" name="as_epq" class="form-input">
+                    <br><br>
+                </div>
+                <div class="Ainput">
+                    <label>any of this words:</label>
+                    <input type="text" name="as_oq" class="form-input">
+                    <br><br>
+                </div>
+                <div class="Ainput">
+                    <label>none of these words:</label>
+                    <input type="text" name="as_eq" class="form-input">
+                    <br><br>
+                </div>
+                <div class="Button-div">
+                    <input type="submit" value="Advanced search" class="Abutton">
+                </div>
+                
         </form>
     </div>
 </div>
