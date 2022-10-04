@@ -48,3 +48,47 @@ div.form {
 .button:hover {
     border: 1px solid gray;
 }
+
+.searchBar:hover {
+    box-shadow: 0 1px 1px 0 rgba(74, 72, 72, 0.24),0 2px 3px 0 rgba(68, 67, 67, 0.19);;
+}
+
+.Abutton {
+    background-color: rgb(80, 80, 254);
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+}
+
+.Abutton:hover {
+    background-color: blue;
+}
+
+.Button-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 515px;
+}
+
+.Ainput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    width: 500px;
+}
+
+.form-input {
+    width: 385px;
+}
+
+label {
+    width: 200px;
+}
+
+.advanced {
+    font-family: Arial, Helvetica, sans-serif;
+}
